@@ -4,7 +4,6 @@ import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import CharactersPage from './pages/CharactersPage/CharactersPage';
 import CharactersNewPage from './pages/CharactersNewPage/CharactersNewPage';
-import CharactersEditPage from './pages/CharactersEditPage/CharactersEditPage';
 
 function App() {
   
@@ -22,7 +21,6 @@ function App() {
           <Route path={"/"} element={<HomePage />}></Route>
           <Route path={"/characters"} element={<CharactersPage />}></Route>
           <Route path={"/characters/new"} element={<CharactersNewPage/>}></Route>
-          <Route path={"/characters/:id"} element={<CharactersEditPage/>}></Route>
         </Routes>
       </BrowserRouter>
 

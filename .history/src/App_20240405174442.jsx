@@ -4,7 +4,6 @@ import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import CharactersPage from './pages/CharactersPage/CharactersPage';
 import CharactersNewPage from './pages/CharactersNewPage/CharactersNewPage';
-import CharactersEditPage from './pages/CharactersEditPage/CharactersEditPage';
 
 function App() {
   
