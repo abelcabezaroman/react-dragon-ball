@@ -19,7 +19,7 @@ export default function HomePage() {
       <button onClick={onPlay}>Play</button>
       <button onClick={onPause}>Pause</button>
 
-      <button onMouseEnter={onPlay} onMouseLeave={onPause}>Mouseame por encima</button>
+      <button onMouseEnter={onPlay}>Mouseame por encima</button>
     </div>
   )
 }

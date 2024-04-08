@@ -8,8 +8,9 @@ export default function HomePage() {
     audioRef.current.play();
   }
 
+
   const onPause = ()=> {
-    audioRef.current.pause();
+    audioRef.current.play();
   }
 
   return (
@@ -17,9 +18,7 @@ export default function HomePage() {
       <audio src="dragon.mp3" ref={audioRef}></audio>
 
       <button onClick={onPlay}>Play</button>
-      <button onClick={onPause}>Pause</button>
-
-      <button onMouseEnter={onPlay} onMouseLeave={onPause}>Mouseame por encima</button>
+      <button onClick={onPause}>Play</button>
     </div>
   )
 }

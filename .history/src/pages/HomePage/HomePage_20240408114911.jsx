@@ -5,6 +5,7 @@ export default function HomePage() {
   const audioRef = useRef();
 
   const onPlay = ()=> {
+    debugger
     audioRef.current.play();
   }
 
