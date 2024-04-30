@@ -19,7 +19,7 @@
       "name": "Android 17",
       "description": "Androide Número 17 (人造人間１７号Kan, Jinzōningen Jū Nana-GōHepJP) conocido como Lapis (ラピスKan, RapisuHepJP)[13] antes de ser secuestrado, es el hermano gemelo de la Androide Número 18, quien al igual que ella antes de ser Androide era un humano normal hasta que fueron secuestrados por el Dr. Gero, y es por eso que lo odian. Tras su cambio de humano a Androide, le insertaron un chip con el objetivo de destruir a Son Goku, quien en su juventud extermino al Ejército del Listón Rojo. Al considerarse defectuoso porque no quería ser 'esclavo de nadie', el Dr. Gero les había colocado a ambos hermanos, un dispositivo de apagado para detenerlos en cualquier momento de desobediencia, pero cuando el científico los despierta, el rencor y rebeldía de 17 eran tal que se encargó de destruir el control que lo volvería a encerrar y acto seguido mató sin piedad a su propio creador. Su situación se le iría en contra, ya que Cell tenía como misión absorber a 17 y 18 para completar su desarrollo y convertirse en Cell Perfecto.",
       "avatar": "http://localhost:3000/images/android-17.png",
-      "idPlanet": 2
+      "idPlanet": "2"
     },
     {
       "id": "3",
@@ -50,13 +50,6 @@
       "idPlanet": 2
     },
     {
-      "id": "8",
-      "name": "Videl",
-      "description": "Videl (ビーデルKan, BīderuHepJP) es la hija del campeón mundial de Artes Marciales Mr. Satán y de la famosa cantante fallecida Miguel. Ella es la esposa de Son Gohan y madre de Pan.",
-      "avatar": "http://localhost:3000/images/videl.png",
-      "idPlanet": 2
-    },
-    {
       "id": "9",
       "name": "Piccolo",
       "description": "Piccolo (ピッコロKan, PikkoroHepJP, Piccolo en namekiano.png en idioma namekiano) o Piccolo Jr. (ピッコロ・ジュニアKan, Pikkoro JuniaHepJP), también conocido bajo el seudónimo de Ma Junior (マジュニアKan, Ma JuniaHepJP), es uno de los personajes principales que aparece en el manga y anime de Dragon Ball y sus correspondientes secuelas.",
@@ -71,18 +64,11 @@
       "description": "123123"
     },
     {
-      "id": "0249",
-      "name": "Dodoria",
-      "idPlanet": "1",
-      "avatar": "https://cdn.shopify.com/s/files/1/0399/1833/8203/files/fisico-dodoria-dragon-ball_480x480.png?v=1619647387",
-      "description": "123123"
-    },
-    {
-      "id": "5c1f",
-      "name": "Dodoria",
-      "idPlanet": "1",
-      "avatar": "https://cdn.shopify.com/s/files/1/0399/1833/8203/files/fisico-dodoria-dragon-ball_480x480.png?v=1619647387",
-      "description": "123123"
+      "id": "0bb7",
+      "name": "Broly",
+      "idPlanet": "2",
+      "avatar": "https://i.pinimg.com/originals/2e/ca/1a/2eca1a30c41fde1f89fd66bd9063987d.png",
+      "description": "bro, soy broly, bro"
     }
   ],
   "planets": [
