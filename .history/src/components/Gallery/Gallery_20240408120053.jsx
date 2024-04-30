@@ -1,8 +1,10 @@
 import React, { useContext } from 'react'
 import "./Gallery.scss"
 import { Link } from 'react-router-dom'
+import { GlobalContext } from '../../App'
 
 export default function Gallery({ data, onDelete }) {
+    const {favoriteChar} = useContext(GlobalContext);
 
     return (
         <div className='c-gallery'>

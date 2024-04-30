@@ -1,16 +1,13 @@
 import './App.css'
+import Form from './components/Form/Form';
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import CharactersPage from './pages/CharactersPage/CharactersPage';
 import CharactersNewPage from './pages/CharactersNewPage/CharactersNewPage';
 import CharactersEditPage from './pages/CharactersEditPage/CharactersEditPage';
 import CharactersDetailPage from './pages/CharactersDetailPage/CharactersDetailPage';
-import React, { useState } from 'react';
 
-
-export const GlobalContext = React.createContext()
 function App() {
-  const [favoriteChar, setFavoriteChar] = useState()
 
   return (
     <>

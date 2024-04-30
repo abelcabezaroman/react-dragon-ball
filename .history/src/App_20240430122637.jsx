@@ -5,7 +5,7 @@ import CharactersPage from './pages/CharactersPage/CharactersPage';
 import CharactersNewPage from './pages/CharactersNewPage/CharactersNewPage';
 import CharactersEditPage from './pages/CharactersEditPage/CharactersEditPage';
 import CharactersDetailPage from './pages/CharactersDetailPage/CharactersDetailPage';
-import React, { useState } from 'react';
+import React from 'react';
 
 
 export const GlobalContext = React.createContext()
